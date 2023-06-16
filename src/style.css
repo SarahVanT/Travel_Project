@@ -21,13 +21,13 @@ h3{
 }
 
 body{
-    background: rgba(247, 245, 227, 0.958);
+    background: rgba(39,32,68);
     font-family: "Poppins", sans-serif;
 }
 header{
     text-align: center;
     padding: 200px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/images/michael-bowman-01kP2jek5cM-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,13 +110,81 @@ main p {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-3-columns-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
 .img-responsive{
     width: 100%;
     display: block;
 }
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("/images/footer.png");
 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-@media (max-width: 900px){
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+/* footer{
+    color: white;
+    background-image: linear-gradient( rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9) ), url(/images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+} */
+
+@media (max-width: 960px){
     header{
         padding: 60px 0;
     }
