@@ -1,0 +1,101 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+body{
+    background: rgba(247, 245, 227, 0.958);
+    font-family: "Poppins", sans-serif;
+}
+header{
+    text-align: center;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.343), rgba(0, 0, 0, 0.343)),
+    url("/images/michael-bowman-01kP2jek5cM-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+header a{
+    padding: 16px 32px;
+    border: 1px solid black;
+    color: #272044;
+    background: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    margin-top: 32px;
+}
+
+section{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+main{
+    background: #FFFFFF;
+}
+
+main h2{
+    text-transform: uppercase;
+    color: #272044;
+    opacity: 0.3;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin: 0;
+}
+
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    opacity: 0.7;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 64px;
+}
+
+.columns-2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-responsive{
+    width: 100%;
+    display: block;
+}
