@@ -28,7 +28,7 @@ header{
     text-align: center;
     padding: 200px 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/michael-bowman-01kP2jek5cM-unsplash.jpg");
+    url("/images/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,7 +97,7 @@ main h5{
     color: #272044;
 }
 
-main p {
+main p, figcaption{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -105,6 +105,7 @@ main p {
     color: #272044;
     opacity: 0.7;
 }
+
 
 .container{
     max-width: 1400px;
